@@ -19,8 +19,8 @@ working | Stagging | Local |
 <span style="color:yellow">git init :</span> This command set your project git. 
 
 <span style="color:yellow">git add :</span> when you do somthing change this command and keep your changes on stage. 
-- <span style="color:#fff">git add . :</span> 
-- <span style="color:#fff">git add --all/-a :</span> 
+- <span style="color:#fff">git add . :</span> not all. but work well
+- <span style="color:#fff">git add --all/-a :</span> all are adding
 
 <span style="color:yellow">git commit :</span> when you do somthing change this command and keep your changes on commit.
 **git add --all && git commit -m "message"** This command will work commbindly.
@@ -28,9 +28,16 @@ working | Stagging | Local |
 <span style="color:yellow">git log :</span> It will show your recent 2 or 3 commit histry.
 - <span style="color:#fff">git log --oneline :</span> show all histry but shortly
 
-<span style="color:yellow">git reset :</span> It will reset your work. If you make stage but want to make reset OR commit want to reset.
+<span style="color:yellow">git reset :</span> How to back on previous commit.
+
+- <span style="color:#fff">git reset head^ :</span>This command switch your current commit on working direactory.
+
 - <span style="color:#fff">git reset --soft head^ :</span> HEAD mean your recent commit. So command switch your current commit on stage.
 
 - <span style="color:#fff">git reset head^ :</span>This command switch your current commit on working area.
 
-- <span style="color:#fff">git reset --hard head^ :</span>This command switch your current on your next commit. what you do with your current commit all are erase.
+- <span style="color:#fff">git reset --hard head^ :</span>This command switch your current on your next commit. what you do with your current commit all are erase. mainly It delete your all new work.
+
+<span style="color:yellow">git show :</span> It will show what changes do on your HEAD. You can chage HEAD direaction.
+
+- <span style="color:#fff">git reset head~(1 or 2,3..) :</span> If you want to change HEAD possition and see what was done and what was the changes in that commit.
