@@ -15,3 +15,5 @@
 - <span style="color:white">rmdir /s /q "path" --></span> It also delete folder more convinent way.
     - **/s** : Delete the specified directory and its subdirectories (including all files).
     - **/q** : Perform the operation quietly, without prompting for confirmation.
+
+<span style="color:yellow">ren "old folder name" "new folder name" --> </span> It will rename  **folder** name

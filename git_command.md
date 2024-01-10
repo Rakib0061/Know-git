@@ -8,6 +8,7 @@
 - git reset 
 - git show
 - git branch
+- git clone
 
 ***A Diaframe how git work*** </br>
 working | Stagging | Local |
@@ -51,3 +52,10 @@ working | Stagging | Local |
 - <span style="color:#fff">git branch -d/D (branch name):</span> It will delete branch for that provide name.
 
 - <span style="color:#fff">git checkout (branch name):</span> It will take away this branch which are provide branch name.
+
+<span style="color:yellow">git clone :</span> It will cloning all data from local server to your folder.
+
+- <span style="color:#fff">git clone (link):</span> It will clone your folder for that provided link.
+
+- <span style="color:#fff">git clone -b (branch name) (link):</span> It will cloning particular one branch;
+
