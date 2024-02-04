@@ -1,0 +1,10 @@
+// my theme color
+$teal-light:    #07847f;
+$teal-dark:    #1e3737;
+$orange:  #fe7f4c;
+
+$primary:       $teal_light;
+$secondary:     $orange;
+
+// Import BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
