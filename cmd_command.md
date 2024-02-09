@@ -10,6 +10,8 @@
 
 <span style="color:yellow">mkdir (folder name) --> </span> It will create a **folder**
 
+<span style="color:yellow">type nul > wow.[txt/html/css] (file name + extension) --> </span> It will create a **file with emty element**
+
 <span style="color:yellow">rmdir (folder name) --> </span> It will delete **folder**
 
 - <span style="color:white">rmdir /s /q "path" --></span> It also delete folder more convinent way.
