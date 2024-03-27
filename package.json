@@ -4,20 +4,15 @@
   "version": "1.0.0",
   "type": "module",
   "keywords": [
-    "vanilla",
     "javascript",
-    "template",
-    "boilerplate",
     "boilerplate-template",
     "postcss",
     "eslint",
     "prettier",
-    "scaffold",
     "scaffold-template",
-    "vite",
     "vitejs",
     "vite-template",
-    "vitejs-template"
+    "gulpjs"
   ],
   "scripts": {
     "dev": "vite --host --open",
@@ -42,7 +37,6 @@
     "gulp-imagemin": "^9.0.0",
     "gulp-webp": "^5.0.0",
     "postcss": "^8.4.38",
-    "postcss-nesting": "^12.1.0",
     "prettier": "^3.2.5",
     "sass": "^1.72.0",
     "vite": "5.2.6",
